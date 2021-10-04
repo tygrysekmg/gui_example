@@ -1,0 +1,35 @@
+{
+    "name": "grzegorz/php",
+    "autoload": {
+        "psr-4": {
+            "Grzegorz\\Php\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Grzegorz",
+            "email": "k.luk@wp.pl"
+        }
+    ],
+     "require": {
+        "php": ">=5.6",
+        "react/child-process": "^0.4.0",
+        "gabrielrcouto/php-gui": "^0.1.1"
+    },
+    "require-dev" : {
+        "phing/phing": "2.*",
+        "phpunit/phpunit": "^4.8.35",
+        "squizlabs/php_codesniffer": "2.0.*@dev",
+        "evert/phpdoc-md" : "~0.2.0",
+        "phpdocumentor/phpdocumentor": "^2.8"
+    },
+    "config" : {
+        "bin-dir" : "bin/"
+    },
+    "autoload": {
+        "psr-4": {
+            "Gui\\": "src/",
+            "Test\\": "test/"
+        }
+    }
+}
